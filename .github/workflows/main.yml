@@ -15,5 +15,5 @@ jobs:
         export STACK_PASSWORD="3Vu2z89r8nf^lbn_Mh&d&gq&n9142&x#6^Hq&gc^2#6j^OKS%4L&qb14q#2a^NYG"
         acs config add-stack fantastic-falcon-r4l --use
         acs login --token-user admin
-        acs apps install private --app-package /var/tmp/test_deploy_acs_4.tgz --acs-legal-ack Y
+        acs apps install private --app-package /var/tmp/test_deploy_acs_4.tgz --acs-legal-ack Y --format structured
         
