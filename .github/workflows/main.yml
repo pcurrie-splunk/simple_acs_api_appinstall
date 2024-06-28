@@ -16,4 +16,5 @@ jobs:
         acs config add-stack fantastic-falcon-r4l --use
         acs login --token-user admin
         acs apps install private --app-package /var/tmp/test_deploy_acs_4.tgz --acs-legal-ack Y --format structured
+        rm -rf /home/splunker/actions-runner/_work/simple_acs_api_appinstall
         
